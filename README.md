@@ -34,7 +34,7 @@ Este proyecto tiene como objetivo simplificar el proceso de contratación de ser
 
 [Documentacion del proyecto](https://linktodocumentation)
 
-[Mockup del proyecto](https://linktodocumentation)
+[Mockup del proyecto](https://www.figma.com/design/YXvZzmoRoUVdnWMIf3VBS4/pleasedHome?node-id=0-1&t=7vqjbB9ZM91UT75x-1)
 
 [Users Stories](https://linktodocumentation)
 
@@ -47,7 +47,7 @@ Install my-project with npm
   npm install my-project
   cd my-project
 ```
-    
+
 # Logo
 
 ![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)

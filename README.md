@@ -1,34 +1,34 @@
 # Plataforma de Servicios Domésticos y Cuidado de Niños
 
 # Descripción del Proyecto
+
 Este proyecto consiste en el desarrollo de una plataforma digital innovadora diseñada para facilitar la contratación de servicios domésticos y cuidado de niños. Nuestra plataforma conecta a clientes que buscan asistencia en tareas del hogar o cuidado infantil con proveedores de servicios calificados y confiables.
 
 # Características Principales
 
-* Búsqueda Avanzada: Los usuarios pueden buscar proveedores de servicios basándose en diversos criterios como tipo de servicio, ubicación, tarifas y calificaciones.
+- Búsqueda Avanzada: Los usuarios pueden buscar proveedores de servicios basándose en diversos criterios como tipo de servicio, ubicación, tarifas y calificaciones.
 
-* Perfiles Detallados: Los proveedores de servicios pueden crear perfiles completos, incluyendo sus habilidades, experiencia y disponibilidad.
+- Perfiles Detallados: Los proveedores de servicios pueden crear perfiles completos, incluyendo sus habilidades, experiencia y disponibilidad.
 
-* Sistema de Reseñas y Calificaciones: Implementamos un robusto sistema de reseñas y calificaciones (escala de 1 a 10) para ayudar a los clientes a tomar decisiones informadas.
+- Sistema de Reseñas y Calificaciones: Implementamos un robusto sistema de reseñas y calificaciones (escala de 1 a 10) para ayudar a los clientes a tomar decisiones informadas.
 
-* Gestión de Hojas de Vida: Los proveedores pueden adjuntar y actualizar sus hojas de vida, proporcionando una visión más completa de sus calificaciones y experiencia laboral.
+- Gestión de Hojas de Vida: Los proveedores pueden adjuntar y actualizar sus hojas de vida, proporcionando una visión más completa de sus calificaciones y experiencia laboral.
 
-* Programación de Servicios: La plataforma permite a los clientes programar entrevistas o servicios directamente con los proveedores.
+- Programación de Servicios: La plataforma permite a los clientes programar entrevistas o servicios directamente con los proveedores.
 
-* Panel de Administración: Incluye herramientas para que los administradores moderen el contenido, gestionen usuarios y analicen el rendimiento de la plataforma.
+- Panel de Administración: Incluye herramientas para que los administradores moderen el contenido, gestionen usuarios y analicen el rendimiento de la plataforma.
 
 Este proyecto tiene como objetivo simplificar el proceso de contratación de servicios domésticos y cuidado infantil, proporcionando una plataforma segura, eficiente y fácil de usar tanto para clientes como para proveedores de servicios.
 
 ## Color Reference
 
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Como color principal para la barra de navegación, encabezados y elementos de marca. | ![#00796B](https://via.placeholder.com/10/00796B?text=+) #00796B |
-| Para elementos interactivos secundarios, iconos y detalles de la interfaz. | ![#4DB6AC](https://via.placeholder.com/10/4DB6AC?text=+) #4DB6AC |
-| Para un aspecto limpio y fresco. | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) #FFFFFF |
-| Para separar secciones o como fondo alternativo para tarjetas y paneles. | ![#F5F5F5](https://via.placeholder.com/10/F5F5F5?text=+) #F5F5F5 |
+| Color                                                                                                    | Hex                                                              |
+| -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| Como color principal para la barra de navegación, encabezados y elementos de marca.                      | ![#00796B](https://via.placeholder.com/10/00796B?text=+) #00796B |
+| Para elementos interactivos secundarios, iconos y detalles de la interfaz.                               | ![#4DB6AC](https://via.placeholder.com/10/4DB6AC?text=+) #4DB6AC |
+| Para un aspecto limpio y fresco.                                                                         | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) #FFFFFF |
+| Para separar secciones o como fondo alternativo para tarjetas y paneles.                                 | ![#F5F5F5](https://via.placeholder.com/10/F5F5F5?text=+) #F5F5F5 |
 | Para botones de llamada a la acción, alertas importantes o elementos que necesiten destacar visualmente. | ![#FFA000](https://via.placeholder.com/10/FFA000?text=+) #FFA000 |
-
 
 ## Documentation
 
@@ -39,6 +39,7 @@ Este proyecto tiene como objetivo simplificar el proceso de contratación de ser
 [Users Stories](https://linktodocumentation)
 
 [Diagramas del proyecto](https://linktodocumentation)
+
 ## Installation
 
 Install my-project with npm
@@ -94,4 +95,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
->>>>>>> 8ab7bb8 (Initial commit from Create Next App)
+
+> > > > > > > 8ab7bb8 (Initial commit from Create Next App)

@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import './globals.css';
+import '../globals.css';
 
 config.autoAddCss = false;
 

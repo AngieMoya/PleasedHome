@@ -4,6 +4,7 @@ type ButtonProps = {
   text: string;
   size: string;
   variant: 'primary' | 'secondary' | 'tertiary' | 'quaternary';
+  onClick?: () => void;
 };
 
 const variants = {
@@ -14,6 +15,10 @@ const variants = {
 };
 
 export default function Button(props: ButtonProps) {
-  const { text, size, variant } = props;
-  return <button className={`${variants[variant]} rounded-full p-3 font-semibold ${size}`}>{text}</button>;
+  const { text, size, variant, onClick } = props;
+  return (
+    <button className={`${variants[variant]} rounded-full p-3 font-semibold ${size}`} onClick={onClick}>
+      {text}
+    </button>
+  );
 }

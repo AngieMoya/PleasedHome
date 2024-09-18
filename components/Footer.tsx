@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="flex items-center justify-between p-8">
       <div className="flex flex-col">
-        <p className="pb-4 text-sm font-extrabold text-primary-green">PlasedHome</p>
+        <p className="pb-4 text-sm font-extrabold text-primary-green">PleasedHome</p>
         <span className="text-xs text-gray-500"> &copy; 2024 PleasedHome</span>
       </div>
       <div className="flex w-52 justify-between">

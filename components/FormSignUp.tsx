@@ -122,18 +122,17 @@ export default function FormSignUp() {
   const displayButton = step === 1 ? 'hidden' : 'block';
 
   return (
-    <div className="flex max-h-[606px] w-11/12 flex-col items-center justify-center rounded-3xl bg-my-gray p-8 shadow-lg shadow-primary-green/60 sm:w-3/4 md:w-1/2">
+    <div className="relative flex max-h-[606px] w-11/12 flex-col items-center justify-center rounded-3xl bg-my-gray p-8 shadow-lg shadow-primary-green/60 sm:w-3/4 md:w-1/2">
       <h2 className="pb-4 text-xl font-extrabold text-primary-green">Registrate</h2>
       <button
-        className={`self-center font-semibold ${displayButton} text-sm text-primary-green hover:text-secondary-green`}
+        className={`self-center font-semibold ${displayButton} absolute start-7 top-7 p-4 text-sm text-primary-green hover:text-secondary-green`}
         onClick={() => {
           if (step === 2) {
             setStep(1);
           }
         }}
       >
-        <FontAwesomeIcon className="pr-1" icon={faArrowAltCircleLeft}></FontAwesomeIcon>
-        Volver
+        <FontAwesomeIcon className="pr-1" icon={faArrowAltCircleLeft} size="xl"></FontAwesomeIcon>
       </button>
       <form
         className="flex w-full flex-col items-center justify-around p-8 lg:w-4/5"

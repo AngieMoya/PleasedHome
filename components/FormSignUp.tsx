@@ -13,6 +13,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import Link from 'next/link';
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 import Button from './Button';
 
@@ -117,6 +118,7 @@ function Step2() {
 
 export default function FormSignUp() {
   const [step, setStep] = useState(1);
+  const router = useRouter();
 
   const textButton = step === 1 ? 'Siguiente' : 'Registrate';
   const displayButton = step === 1 ? 'hidden' : 'block';
@@ -136,20 +138,18 @@ export default function FormSignUp() {
       </button>
       <form
         className="flex w-full flex-col items-center justify-around p-8 lg:w-4/5"
-        onSubmit={(e) => e.preventDefault()}
+        onSubmit={(e) => {
+          e.preventDefault();
+          if (step === 1) {
+            setStep(2);
+          } else {
+            router.push('/dashboard');
+          }
+        }}
       >
         {step === 1 ? <Step1 /> : <Step2 />}
 
-        <Button
-          text={textButton}
-          size={'w-4/5'}
-          variant={'primary'}
-          onClick={() => {
-            if (step === 1) {
-              setStep(2);
-            }
-          }}
-        ></Button>
+        <Button text={textButton} size={'w-4/5'} variant={'primary'}></Button>
         <div className="flex pt-2 text-xs">
           <p className="font-semibold text-secondary-green">Ya tienes cuenta registrada?</p>
           <Link className="pl-1 font-semibold text-primary-green hover:text-secondary-green" href={'/login'}>

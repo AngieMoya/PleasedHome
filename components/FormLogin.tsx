@@ -17,7 +17,7 @@ export default function FormLogin() {
       <form
         className="flex w-full flex-col items-center justify-around p-8 lg:w-4/5"
         onSubmit={(e) => {
-          e.preventDefault;
+          e.preventDefault();
           router.push('/dashboard');
         }}
       >

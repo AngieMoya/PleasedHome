@@ -35,7 +35,7 @@ const Star: React.FC<StarProps> = ({ filled, onClick }) => {
       icon={faStar}
       onClick={onClick}
       className={`cursor-pointer transition-colors duration-300 ${filled ? 'text-yellow-400' : 'text-gray-400'}`}
-      size="sm"
+      size="lg"
     />
   );
 };

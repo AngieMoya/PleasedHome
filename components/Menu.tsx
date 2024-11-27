@@ -36,7 +36,7 @@ export default function Menu() {
         <ul className="font-semibold text-white">
           <li>
             <Link
-              href={''}
+              href={'dashboard/profile'}
               className="flex items-center gap-x-3 whitespace-nowrap p-2 hover:rounded-xl hover:bg-mustard"
             >
               <FontAwesomeIcon icon={faUserCircle}></FontAwesomeIcon>

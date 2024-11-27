@@ -16,7 +16,7 @@ type PublishCardProps = {
 export default function PublishCard(props: PublishCardProps) {
   const { name, age, ubication, rate, descriptionTitle, description, publishDate } = props;
   return (
-    <div className="border-3 mb-4 flex w-4/5 flex-col rounded-3xl bg-my-gray p-8 shadow-lg">
+    <div className="mb-4 flex w-4/5 flex-col rounded-3xl bg-my-gray p-8 shadow-lg">
       <div className="flex items-center gap-6 lg:items-start">
         <div className="hidden h-20 w-20 rounded-full bg-gray-200 lg:block"></div>
         <div className="lg:w-4/5">

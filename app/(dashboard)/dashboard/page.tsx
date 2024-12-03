@@ -14,6 +14,24 @@ export default function Page() {
           publishDate={'05 de julio del 2024'}
           descriptionTitle={'Aseo general'}
         />
+        <PublishCard
+          name={'Maria Perez'}
+          age={40}
+          ubication={'Barranquilla / Atlantico'}
+          rate={4}
+          description={'Busco empleo para realizar tareas domésticas como interna.'}
+          publishDate={'05 de julio del 2024'}
+          descriptionTitle={'Aseo general'}
+        />
+        <PublishCard
+          name={'Cristina Uchuga'}
+          age={40}
+          ubication={'Barranquilla / Atlantico'}
+          rate={4}
+          description={'Busco empleo para realizar tareas domésticas como interna.'}
+          publishDate={'05 de julio del 2024'}
+          descriptionTitle={'Aseo general'}
+        />
       </section>
       <Banner></Banner>
     </div>

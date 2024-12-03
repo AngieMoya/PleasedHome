@@ -1,4 +1,4 @@
-# Plataforma de Servicios Domésticos y Cuidado de Niños
+# Plataforma de Servicios Domésticos
 
 # Descripción del Proyecto
 
@@ -48,16 +48,6 @@ Install my-project with npm
   npm install my-project
   cd my-project
 ```
-
-# Logo
-
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
-
-## Authors
-
-- [@Angie Moya](https://www.github.com/AngieMoya)
-- [@Jeider Foronda](https://www.github.com/Jeider-fp)
-- [@Juan Barrios](https://www.github.com/JuanB12)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
